@@ -1,0 +1,83 @@
+/* style2.css */
+body {
+    background-color: beige;
+    color: black;
+}
+
+/* Base style for body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+/* Image of profile - Keeps the circle style */
+img.profile {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 200px; /* Custom size for profile picture */
+}
+
+.info p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+strong {
+    color: darkblue;
+}
+
+h2 {
+    margin-top: 30px;
+    color: darkblue;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: #007BFF; /* Color change on hover */
+}
+
+i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Logo styling - keeps logos square and smaller */
+ul a img {
+    width: 24px; /* Adjust size for social media logos */
+    height: 24px;
+    margin-right: 10px; /* Space between logo and text */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Slightly enlarge the logos on hover */
+ul a:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+}
